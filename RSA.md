@@ -16,7 +16,8 @@ sao cho: $X^{ed} =Y^d \pm n$
 
 Người ta đã tìm được cách xây dựng cặp số (e,d) này trên cơ sở công thức như sau: $X^{\phi (n)} = 1 \pm n$ (định lý Ơ - le).
 Trong đó $\phi(n)$ hàm số cho biết số lượng các số thuộc $Z_n$ mà nguyên tố cùng nhau với n.  Người ta cần chọn _e*d_ sao cho chia $\phi(n)$ dư 1, hay $d= e^{-1} \pm \phi(n)$, khi đó ta sẽ có điều cần thiết:
-$$X^{ed} = X^{k.\phi(n)+1}=(X^{\phi(n)})^d *X=1*X=X$$
+
+$$X^{ed} = X^{k \phi(n) +1 }=(X^{\phi(n)})^d *X=1*X=X$$
 
 $\phi(n)$ có thể tính được khi đã biết công thức phân tích thừa số nguyên tố của n, cụ thể là nếu đã biết n = p*q (p.q là số nguyên tố) thì $\phi(n)=(p-1)(q-1)$
 Nói cách khác nếu như cho trước một số e thì nếu đã biết công thức phân tích thừa số nguyên tố của n ta có thể dễ dàng tìm được d sao cho $d=e^{-1}\pm\phi(n)$ hay là $X^{ed}=X\pm n$ , còn nếu không biết thì rất khó
