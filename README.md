@@ -152,7 +152,7 @@ Ví dụ:
 
 Đối với bất kỳ khoá nào tồn tại ít nhất 9 bản rõ bị ‘phơi mặt’, tuy nhiên đối với $n \ge 200$ điều đó không còn quan trọng. Mặc dù vậy phải chú ý là nếu e không được chọn cẩn thận thì có thể gần đến 50% bản rõ bị lộ.
 
-Ví dụ 3.8: Với n = 35, e = 17  
+Ví dụ: Với n = 35, e = 17  
 {1, 6, 7, 8, 13, 14, 15, 20, 21, 27, 28, 29, 34} không che được
 
 Người ta cho rằng có thể tránh được tình huống này nếu số nguyên tố được chọn là AN TOÀN. Một số nguyên tố được gọi là AN TOÀN nếu p=2p’+1 trong đó p’ cũng là số  nguyên tố.
