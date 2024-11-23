@@ -157,7 +157,7 @@ Người ta cho rằng có thể tránh được tình huống này nếu số n
 **Đánh giá về an toàn của thuật toán RSA**
 Sự an toàn của thành phần khoá mật (private key) phụ thuộc vào tính khó của việc PTTSNT các số lớn.  
 Ký hiệu Z= (e,n) là khoá công khai.  
-Nếu biết PTTSNT của n là n=$p\times q$ thì sẽ tính được m=$\phi(n)$ =(p-1)(q-1). Do đó tính được  $d=e^{-1}$ (mod m) theo thuật toán GCD mở rộng.  
+Nếu biết PTTSNT của n là n= $p \times q$ thì sẽ tính được m = $\phi(n)$ = (p-1)(q-1). Do đó tính được $d=e^{-1}$ (mod m) theo thuật toán GCD mở rộng.  
 Tuy nhiên nếu không biết trước p,q thì như đã biết không có một thuật toán hiệu quả nào  
 để PTTSNT đối với n, tức là tìm được p,q, khi n lớn. Nghĩa là không thể tìm được m và do đó không tính được d
 
