@@ -163,7 +163,7 @@ Tuy nhiên nếu không biết trước p,q thì như đã biết không có m�
 
 **Chú ý**: Độ an toàn của RSA chưa chắc hoàn toàn tương đương với tính khó của bài toán PTTSNT, tức là có thể tồn tại phép tấn công phá vỡ được RSA mà không cần phải biết PTTSNT của n, chẳng hạn nếu như có kẻ thành công trong các dạng tấn công sau:  
 1. Đi tìm thành phần khóa mật  
-Kẻ thù biết M và C với C=$D_z(M)$. Để tìm d nó phải giải phương trình:  
+Kẻ thù biết M và C với C = $D_z(M)$ . Để tìm d nó phải giải phương trình:  
 $$M = C^d \pm n  $$
 Hay là tính d = $log_CM$
 2. Đi tìm bản rõ:  
