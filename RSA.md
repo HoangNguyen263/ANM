@@ -8,6 +8,7 @@ Các nhà phát minh có lựa chọn khá giản dị là xây dựng thuật t
 
 Ở đây ta dùng ký hiệu $a = b \pm n$ nghĩa là $a = b \pm k* n$ với $a \in Z_n$ còn k = 1,2,3,..., ví dụ $7  = 3^3 \pm 10$ còn việc giải mã:
 >X = $Y^d \pm n$
+
 (_e _– khóa sinh mã, _d_ – khóa giải mã)
 
 Như vậy để hai hàm sinh mã và giải mã này là hàm ngược của nhau, e và d phải được chọn  
