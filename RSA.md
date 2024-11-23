@@ -1,3 +1,5 @@
+# Tìm hiểu về RSA
+
 Diffile và Hellman đã giới thiệu một cách tiếp cận mới với mật mã học và từ đó đã đưa ra yêu cầu phải có một thuật toán mật mã đáp ứng các yêu cầu đối với hệ thống khoá công khai. Một trong những thuật toán đầu tiên thành công trong việc đáp ứng lại yêu cầu đó đã được phát triển vào năm 1977 bởi Ron Rivest, Adi Shamir, và Len Adleman ở MIT và được xuất bản vào năm 1978. Thuật toán Rivest-Shamir-Adleman (RSA) đã trở thành chuẩn mật mã bất thành văn đối với PKC, cung cấp đảm bảo tính mật, xác thực và chữ ký điện tử.
 
 Cơ sở thuật toán RSA dựa trên tính khó của bài toán phân tích các số lớn ra thừa số nguyên tố: không tồn tại thuật toán thời gian đa thức (theo độ dài của biểu diễn nhị phân của số đó)  cho bài toán này. Chẳng hạn, việc phân tích một hợp số là tích của 2 số nguyên tố lớn hàng  trăm chữ số sẽ mất hàng ngàn năm tính toán với một máy PC trung bình có CPU khoảng trên 2Ghz.
