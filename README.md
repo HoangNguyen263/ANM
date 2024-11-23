@@ -65,7 +65,7 @@ Figure 1: Tóm tắt thuật toán RSA
 | Bản mã | C |
 | Bản rõ | M = $C^d$ mod n |
 
-Giả sử M là khối tin gốc, C là khối mã tương ứng của M và ($z_A$,$Z_A$)  là  các thành phần công khai và riêng của khoá của Alice  
+Giả sử M là khối tin gốc, C là khối mã tương ứng của M và ($z_A$, $Z_A$ )  là  các thành phần công khai và riêng của khoá của Alice  
 **Mã hoá** Nếu Bob muốn gửi một thông báo mã hoá cho Alice thì anh ta chỉ việc dùng khoá  công khai của Alice để thực hiện: 
 > C = $E_{Z_A}$(M) = $M^e \pm n$
 
