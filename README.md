@@ -132,6 +132,7 @@ Luỹ thừa có thể được tính như thông thường bằng phép nhân l
 > ...
 > $M^{2^k} = M^{2^{k-1}} \times M^{2^{k-1}}$
 3. Từ bước 1, ta tính được $M^{\alpha} \pm n$ bằng cách đem nhân với nhau các giá trị $X^{2^i} \pm n$ đã tính ở bước 2 nếu như $\alpha_i$ tương ứng của nó là 1:
+
 $$(M^{2^i})^{\alpha_i}=
 \begin{cases}
 1  & \text{,$\alpha_i$=0} \\
