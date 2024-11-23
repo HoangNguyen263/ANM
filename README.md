@@ -128,8 +128,11 @@ Luỹ thừa có thể được tính như thông thường bằng phép nhân l
 > $\alpha$ = $\alpha_0 2^0$ + $\alpha_1 2^1$ + + $\alpha_2 2^2$ + ... + $\alpha_k 2^k$
 2. Dùng vòng lặp k bước để tính k giá trị $M^{2^i} \pm n$ , với i=1,k :
 > $M^2 = M \times M$
+> 
 > $M^4 = M^2 \times M^2$
+> 
 > ...
+> 
 > $M^{2^k} = M^{2^{k-1}} \times M^{2^{k-1}}$
 3. Từ bước 1, ta tính được $M^{\alpha} \pm n$ bằng cách đem nhân với nhau các giá trị $X^{2^i} \pm n$ đã tính ở bước 2 nếu như $\alpha_i$ tương ứng của nó là 1:
 
